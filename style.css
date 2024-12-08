@@ -384,9 +384,13 @@ h2 {
   text-align: center;
 }
 
+.about-text-container > h3 {
+  font-size: 2rem;
+}
 .about-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .about-text-container {
@@ -400,6 +404,19 @@ h2 {
 
 .about-text-container p {
   line-height: 1.5;
+}
+
+.code-background {
+  text-align: center;
+  background-color: black;
+  padding: 12px;
+  font-size: 1.3rem;
+  color: #c2c2c2;
+}
+
+.not {
+  color: red;
+  font-size: 1.3rem;
 }
 
 @media screen and (max-width: 768px) {
